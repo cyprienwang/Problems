@@ -4,7 +4,7 @@ import java.util.List;
 
 /*
 @author wang bingqi
-final time complexity is O(log n + log m + n + m)
+final time complexity is O(nlog n + nlog m + n + m)
  */
 public class ListUnion {
     static void swap(List<Integer> arr ,int a ,int b){
@@ -83,7 +83,7 @@ public class ListUnion {
             }
         }
     }
-    //O(log n + log m + n + m)
+    //O(nlog n + nlog m + n + m)
     static List<Integer> union(List<Integer> a, List<Integer> b){
         int n = a.size(), m = b.size();
         List res = new ArrayList(n+m);
