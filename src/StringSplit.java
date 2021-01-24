@@ -40,7 +40,7 @@ public class StringSplit {
     }
 
 
-
+    //String[] st = s.split(";")
     public static void main(String[] args) {
             String s = new String("k1=v1;k2=v2;k3=v3;k4=v41,v42");
             System.out.println(StringSplit.parseKV(s));
